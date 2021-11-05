@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.main1{
+  width: 300px;
+  height: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  position: relative;
+}
+
+.main-content {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  margin: 10px;
+  margin-bottom: 15px;
+  background-size: 100% 100%;
+}
+
+.category {
+  position: absolute;
+  background-color: #ee9a4b;
+  color: #fff;
+  left: 0;
+  top: 0;
+}
+
+.p {
+  margin: 10px;
+}
+
+.main2{
+  width: 300px;
+  height: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  position: relative;
+}
+
+.main-content2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  margin: 10px;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+.main3{
+  width: 300px;
+  height: 300px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.main-content3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  margin: 10px;
+  margin-bottom: 15px;
+  background-size: 100% 100%;
+}
+
+.item {
+  margin: 5px;
+
+}
+
+
+.footer{
+  width 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+@media screen and (max-width:768px) {
+  .main {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .main1 {
+    width: 90%;
+    height: 423px;
+    margin: 50px 10px 20px 10px;
+    padding-top: 10px;
+  }
+
+  .main-content {
+    width: 90%;
+    height: 250px;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+
+  .main2 {
+    width: 90%;
+    height: 423px;
+    margin: 20px 10px 20px 10px;
+    padding-top: 10px;
+  }
+
+  .main-content2 {
+    width: 90%;
+    height: 250px;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+
+  .main3 {
+    width: 90%;
+    height: 423px;
+    margin: 20px 10px 50px 10px;
+    padding-top: 10px;
+  }
+
+  .main-content3 {
+    width: 90%;
+    height: 250px;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+
+  .item {
+    font-size: 22px;
+  }
+
+  .text {
+    font-size: 25px;
+  }
+
+  .category {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+  }
+}
