@@ -16,6 +16,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .main1 {
@@ -27,12 +29,12 @@
 }
 
 .main-content {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
   margin: 10px;
   margin-bottom: 15px;
-  background-size: 100% 100%;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .category {
@@ -56,12 +58,12 @@
 }
 
 .main-content2 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow02.png);
   margin: 10px;
-  background-size: 100% 100%;
   margin-bottom: 15px;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .main3 {
@@ -72,12 +74,12 @@
 }
 
 .main-content3 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow03.png);
   margin: 10px;
   margin-bottom: 15px;
-  background-size: 100% 100%;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .item {
@@ -94,20 +96,19 @@
   .main {
     height: 100%;
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .main1 {
     width: 90%;
     height: 423px;
-    margin: 50px 10px 20px 10px;
-    padding-top: 10px;
+    margin: 0 10px 20px 10px;
+    padding: 10px 10px 0 10px;
   }
 
   .main-content {
-    width: 90%;
     height: 250px;
-    background-size: 100% 100%;
-    background-position: center;
     margin: auto;
     margin-bottom: 14px;
   }
@@ -116,31 +117,25 @@
     width: 90%;
     height: 423px;
     margin: 20px 10px 20px 10px;
-    padding-top: 10px;
+    padding-top: 10px 10px 0 10px;
   }
 
   .main-content2 {
     width: 90%;
     height: 250px;
-    background-size: 100% 100%;
-    background-position: center;
-    margin: auto;
     margin-bottom: 14px;
   }
 
   .main3 {
     width: 90%;
     height: 423px;
-    margin: 20px 10px 50px 10px;
-    padding-top: 10px;
+    margin: 20px 10px 0 10px;
+    padding-top: 10px 10px 0 10px;
   }
 
   .main-content3 {
     width: 90%;
     height: 250px;
-    background-size: 100% 100%;
-    background-position: center;
-    margin: auto;
     margin-bottom: 14px;
   }
 
@@ -153,9 +148,6 @@
   }
 
   .category {
-    display: inline-block;
-    width: 11%;
-    height: 40px;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
